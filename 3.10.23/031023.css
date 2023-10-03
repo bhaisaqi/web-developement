@@ -1,0 +1,27 @@
+.box{
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+    flex: 0 1 200px;
+
+}
+.flex-container{
+    background-color: black;
+    display: flex; 
+    height: 300px;
+     flex-direction:row-reverse ;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+    gap: 30px;
+.box5{
+    background-color: blue;
+    align-self: flex-start;
+    
+}
+.box2{
+    background-color: blue;
+    align-self: last baseline;
+    
+} 
